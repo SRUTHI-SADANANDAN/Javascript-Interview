@@ -123,3 +123,130 @@ const globalPlayer = {
 const {id,...rest} = globalPlayer;
 console.log(id,rest);
 
+
+
+// // const globalPlayer = {
+// //     id:1,
+// //     name:"bot",
+// //     powerlevel:100
+// // }
+
+// // const {id,...rest} = globalPlayer;
+// // console.log(id,rest);
+
+
+// // const globalPlayer = [
+// //     {
+// //     id:1,
+// //     name:"bot",
+// //     powerlevel:100
+// //     },
+// //     {
+// //         id:2,
+// //         name:"bot1",
+// //         powerlevel:100
+// //     },
+// //         {
+// //             id:3,
+// //             name:"bot2",
+// //             powerlevel:100
+// //         },
+// // ]
+
+// // for (let i=0;i<globalPlayer.length;i++){
+// //     console.log(globalPlayer[i]);
+// // }
+// // // Foreach reruns same array
+// // globalPlayer.forEach(function(value,index,array){
+// //     console.log(value.name);
+// //     console.log(index);
+// //     console.log(array);
+// // })
+
+// // // using arrow function
+// // globalPlayer.forEach((value,index,array)=>{
+// //     console.log(value.name);
+// //     console.log(index);
+// //     console.log(array);
+// // })
+
+
+// // using map
+// const globalPlayer = [
+//         {
+//         id:1,
+//         name:"bot",
+//         powerlevel:100
+//         },
+//         {
+//             id:2,
+//             name:"bot1",
+//             powerlevel:100
+//         },
+//             {
+//                 id:3,
+//                 name:"bot2",
+//                 powerlevel:100
+//             },
+//     ]
+    
+// // const newarr = globalPlayer.map((data)=>(data.name)) /*map returns new array*/
+// // console.log(newarr);
+
+// // filter method
+// // const newarr = globalPlayer.filter((value)=>value.name==="bot2"&& value.id==3);
+// // console.log(newarr);
+
+// // map
+// const newarr = globalPlayer.map((data)=>(data.name)) /*map returns new array*/
+// console.log(newarr);
+
+// // reduce    it will take 4 arguments total,value,index,array
+// // const numberarray = [1,2,3,4,6,7]
+// // const reducedarray = numberarray.reduce((total,value)=> total+value,1);
+// // console.log(reducedarray);
+// // // using normal loop
+// // let total = 0;
+// // for(i=0;i<numberarray.length;i++){
+// //     total=total+numberarray[i];
+
+// // }
+// // console.log(total);
+
+// // find method :- to take specific element from object
+
+// const emp=[{
+//     emp_id:1,
+//     emp_name:"sruthi",
+//     company:"google"
+// },
+// {
+//     emp_id:2,
+//     emp_name:"sujay",
+//     company:"google"
+// },
+// {
+//     emp_id:3,
+//     emp_name:"nandhu",
+//     company:"google"
+// },
+
+// ]
+
+// const newemp = emp.find(value=>(value.emp_name==="sujay"));
+// console.log(newemp);
+
+
+// // sort
+
+// const numberarray = [1,2,3,4,6,7];
+// const newarr1=numberarray.sort((a,b)=>b-a);
+// console.log(newarr1);
+// // Flat method
+// const nestedarray =[10,20,30,[50,50,40],30,40,[80]];
+// const flatedarray = nestedarray.flat(Infinity);
+// console.log(flatedarray);
+
+document.getElementById("head").style.color ="red";
+document.querySelector("#head").style.color="blue";
+
